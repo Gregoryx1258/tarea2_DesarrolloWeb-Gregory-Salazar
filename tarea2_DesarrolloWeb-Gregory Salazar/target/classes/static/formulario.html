@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Esto es un comentario -->
+<html>
+    <head>
+        <title>MotoSportGSA</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">MotoSportGSA</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link" href="index.html">Inicio</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link" href="audios.html">Audios</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link" href="videos.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link" href="talleres.html">Talleres</a></li>
+                </ul>
+                <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+            </nav>
+            <hr>
+        </header>
+        <br>
+        
+        <section style="background-color: lemonchiffon">
+            <article>
+                <header>
+                  <h2>Solicitud de informacion</h2>
+                  <p>Si deseas unirte al club y recibir notificaciones acerca de ofertas y eventos, solamente llena tus datos</p>
+                </header>
+                <form action="cliente/registro">
+                    <table border="0" cellspacing="5" cellpadding="5">
+                        
+                        <tbody>
+                            <tr>
+                                <td>Correo</td>
+                                <td><input type="email" name="usuario" placeholder="correo@correo.com" size="25" /></td>
+                            </tr>
+                            <tr>
+                                <td>Contraseña</td>
+                                <td><input type="password" name="clave" size="18" /></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre completo</td>
+                                <td><input type="text" name="nombre" placeholder="Digite su nombre" size="30" /></td>
+                            </tr>
+                            <tr>
+                                <td>Color de moto preferido</td>
+                                <td><input type="color" name="color"/></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Telefono</td>
+                                <td><input type="tel" name="telefono" placeholder="Ingrese su numero de tel" size="8" /></td>
+                            </tr>
+                            <tr>
+                                <td>De donde eres?</td>
+                                <td><input type="number" name="salario" min="400" max="10000" /></td>
+                            </tr>
+                            <tr>
+                                <td>Que te pareció nuestra página web?</td>
+                                <td>No muy buena 0 <input type="range" min="0" max="5" /> 5 Súper buena</td>
+                            </tr>
+                            <tr>
+                                <td>Comentarios</td>
+                                <td><textarea name="direccion" rows="4" cols="40">
+                                    </textarea></td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td><input type="reset" value="Limpiar"/>
+                                <input type="submit" value="Enviar"/></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </form>
+            </article>
+            
+        </section>
+        <footer class="footer">
+            <p>Derechos reservados por MotoSportGSA &COPY;</p>
+        </footer>
+    </body>
+</html>
